@@ -1,0 +1,110 @@
+@font-face {
+  font-family: neom;
+  src: url(Neom.ttf);
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #083f28;
+    
+    margin-left: 33%;
+    margin-top: 10%;
+
+}
+  
+  .presentational-container {
+    padding: 20px;
+    background-color: #f0edde;
+    width: 35%;
+
+
+  }
+  
+  table {
+    
+    background: none;
+    margin: 0;
+    padding: 10px 10px 0;
+
+    
+  }
+  
+  tr.outer-row td.headshot-cell {
+    padding: 0 2px 0 0;
+  }
+  
+  td.headshot-cell a {
+    text-decoration: none;
+  }
+  
+  td.headshot-cell img {
+    vertical-align: middle;
+  }
+  
+  td.description-cell {
+    padding: 0 0 0 12px;
+  }
+  
+  td.description-cell > table {
+    background: none;
+    border: 0px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  td.full-name {
+    font-weight: bold;
+    color: #016191;
+    font-size: 22px;
+    font-family: Neom;
+  }
+  
+  td.title {
+    padding-bottom: 10px;
+    color: #239f8a;
+    font-size: 18px;
+    font-family: Neom;
+  }
+
+
+  td.website a {
+    color: #239f8a;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+  }
+  td.em1 {
+    color: #239f8a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .btn1 {
+    align-self: center;
+    background-color: #292e3f; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    margin: 4px 2px;
+    padding: 14px 40px;
+    cursor: pointer;
+  }
+
+  .p1{
+    color: #ebebeb;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 18px;
+  }
+  .tip{
+    color: #24c474;
+  
+  }
